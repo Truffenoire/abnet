@@ -12,7 +12,7 @@ export default function footer() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     return (
-        <footer>
+        <footer className="dark:bg-white dark:text-black">
             <ul className="flex justify-between font-serif text-sm">
                 <li>
                     <Image

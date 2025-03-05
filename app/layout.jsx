@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body
-        className={`${roboto.className} antialiased`}
+        className={`${roboto.className} antialiased dark:bg-white dark:text-black`}
       >
         <Menu />
         <TaskProvider>{children}</TaskProvider>

@@ -18,7 +18,7 @@ export default function Home() {
   const { tasks } = useContext(TaskContext);
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col dark:bg-white dark:text-black">
       <div className="flex flex-1 bg-blue-950 text-white">
         <div className="flex flex-col justify-center items-center w-full relative">
           <div className="absolute w-[100vw] h-[70vh]">
@@ -31,14 +31,14 @@ export default function Home() {
               height="auto"
             // controls preload="none"
             >
-              <source src="/water_wach.mp4" type="video/mp4" />
+              <source src="/water_wach2.mp4" type="video/mp4" />
             </video>
           </div>
           <div className={`${signika.className} title text-center self-center font-bold z-10 text-white text-3xl md:text-5xl uppercase p-6 lg:p-12 rounded-2xl `}>entreprise de nettoyage</div>
           <button className={`${gravitas_one.className} title z-10 border-2 px-6 py-4 mt-6 hover:bg-blue-950 transition-all duration-750`}>devis gratuit</button>
         </div>
       </div>
-      <div className="md:flex justify-center items-center lg:h-[70vh] md:mt-[30vh] mt-[20vh]">
+      <div className="md:flex justify-center items-center mt-[25vh] lg:h-[70vh] md:mt-[30vh]">
         <div className="text-center p-6 lg:w-1/2 text-3xl lg:text-5xl lg:rotate-90 origin-center uppercase">
           <span className={`${gravitas_one.className} font-bold text-blue-950`}>mission </span>
           et<br />

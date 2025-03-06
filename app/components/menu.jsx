@@ -54,7 +54,7 @@ export default function menu() {
                 />
                 <ul className='hidden md:flex justify-around rounded-b-xl w-full p-2'>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/'}>Page</Link></li>
-                    <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/page_1'}>Page_1</Link></li>
+                    <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/task'}>Page_1</Link></li>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/page_2'}>Page_2</Link></li>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/page_3'}>Page_3</Link></li>
                 </ul>

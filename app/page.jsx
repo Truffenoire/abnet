@@ -16,7 +16,7 @@ const signika = Signika({
 export default function Home() {
 
   const { tasks } = useContext(TaskContext);
-
+  
   return (
     <div className="flex flex-col dark:bg-white dark:text-black">
       <div className="flex flex-1 bg-blue-950 text-white">

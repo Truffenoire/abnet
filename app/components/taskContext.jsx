@@ -11,7 +11,6 @@ export const TaskProvider = ({ children }) => {
       try {
         const res = await fetch("/api/getDataTask"); // Remplace par ton endpoint
         const data = await res.json();
-        console.log("data", data);
         
         setTasks(data);
       } catch (error) {

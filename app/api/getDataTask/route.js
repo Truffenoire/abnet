@@ -8,7 +8,8 @@ export async function GET(request) {
     const collection = db.collection("test"); // Remplacez par votre collection réelle
 
     const data = await collection.find({}).toArray();
-    return new Response(JSON.stringify({ data }), {
+    
+    return new Response(JSON.stringify( data ), {
       status: 200,
       headers: { "Content-Type": "application/json" },
     });

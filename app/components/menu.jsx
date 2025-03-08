@@ -58,7 +58,7 @@ export default function menu() {
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/chantiers'}>Chantiers</Link></li>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/locaux'}>Locaux</Link></li>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/contact'}>Contact</Link></li>
-                    <li><Link className='hover:bg-gray-200 flex flex-col items-center w-[50px] p-2 px-6 rounded-xl border-2' href={'/admin'}><RiAdminFill /></Link></li>
+                    <li><Link className='hover:bg-gray-200 flex flex-col items-center w-[50px] p-2 px-6 rounded-xl border-2' aria-label='menu admin' title='menu admin' href={'/admin'}><RiAdminFill /></Link></li>
                 </ul>
                 <button aria-label="menu" className="md:hidden p-6 mr-4" onClick={() => setIsOpen(!isOpen)}>
                     <svg className="w-6 h-6 text-white" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w.org/http/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -71,7 +71,7 @@ export default function menu() {
                         <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/locaux'}>Locaux</Link>
                         <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/contact'}>Contact</Link>
                         <div>
-                            <Link onClick={() => setIsOpen(false)} aria-label="menu admin" className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/admin'}><RiAdminFill /></Link>
+                            <Link onClick={() => setIsOpen(false)} aria-label="menu admin" title='menu admin' className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/admin'}><RiAdminFill /></Link>
                         </div>
                     </ul>
                 </div>

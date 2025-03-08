@@ -7,7 +7,7 @@ export default function page() {
             <div className="chantier mt-10 dark:bg-white dark:text-black">
                 <div className="h_groupe">
                     <h2 className="text-blue-950 text-3xl md:text-5xl px-2 font-bold uppercase md:ml-10">remise en état</h2>
-                    <h2 className="text-orange-500 text-4xl md:text-6xl px-2 font-bold uppercase ml-2 md:ml-20">fin de chantier</h2>
+                    <h2 className="text-orange-500 text-4xl md:text-6xl px-2 font-bold uppercase ml-2 md:ml-20 title">fin de chantier</h2>
                 </div>
                 <div className="mt-5 flex flex-col gap-10 text-xl">
                     <div
@@ -82,7 +82,7 @@ export default function page() {
                             </p>
                         </div>
                     </div>
-                    <div className="h-[40vh] p-10 bg-linear-to-l to-red-500 from-orange-300 text-white">
+                    <div className="h-[40vh] p-10 bg-linear-to-l to-red-500 from-orange-300 text-white title font-bold">
                         <div className="p-4">
                             <FaLongArrowAltRight
                                 size={50}

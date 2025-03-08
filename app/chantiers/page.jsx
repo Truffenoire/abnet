@@ -3,8 +3,8 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 export default function page() {
     return (
-        <div className="dark:bg-white">
-            <div className="chantier mt-10">
+        <div className="dark:bg-white dark:text-black">
+            <div className="chantier mt-10 dark:bg-white dark:text-black">
                 <div className="h_groupe">
                     <h2 className="text-blue-950 text-3xl md:text-5xl px-2 font-bold uppercase md:ml-10">remise en état</h2>
                     <h2 className="text-orange-500 text-4xl md:text-6xl px-2 font-bold uppercase ml-2 md:ml-20">fin de chantier</h2>
@@ -48,7 +48,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="debarra my-10">
+            <div className="debarra my-10 dark:bg-white dark:text-black">
                 <div className="flex flex-col bg-[url('/cube_orange.png')] bg-cover bg-center text-white h-[60vh] p-4">
                     <h2 className="title uppercase text-4xl md:text-6xl font-bold border-b-4">debarrassage</h2>
                     <div className="flex flex-col justify-around flex-1 text-xl md:text-4xl font-bold uppercase">

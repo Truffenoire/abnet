@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function page() {
     return (
-        <div className="dark:bg-white">
+        <div className="dark:bg-white dark:text-black">
             <div className="copro bg-[url('/fond_bulles.jpg')] bg-cover bg-center">
                 <h1 className="uppercase text-4xl md:text-6xl text-center font-bold p-4 text-white title">copropriété</h1>
                 <div className="p-2 flex flex-col gap-4 text-lg md:text-2xl">

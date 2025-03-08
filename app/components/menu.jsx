@@ -52,10 +52,11 @@ export default function menu() {
                     alt='logo entreprise'
                     className='ml-2 rounded-lg'
                 />
-                <ul className='hidden md:flex justify-around items-center rounded-b-xl w-full p-2'>
+                <ul className='hidden md:flex justify-around items-center rounded-b-xl w-full p-2 uppercase'>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/'}>Accueil</Link></li>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/task'}>Travaux</Link></li>
-                    <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/services'}>Services</Link></li>
+                    <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/chantiers'}>Chantiers</Link></li>
+                    <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/locaux'}>Locaux</Link></li>
                     <li><Link className='hover:bg-gray-200 p-2 px-6 rounded-xl border-2' href={'/contact'}>Contact</Link></li>
                     <li><Link className='hover:bg-gray-200 flex flex-col items-center w-[50px] p-2 px-6 rounded-xl border-2' href={'/admin'}><RiAdminFill /></Link></li>
                 </ul>
@@ -66,7 +67,8 @@ export default function menu() {
                     <ul className="flex flex-col items-center border-2">
                         <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/'}>Accueil</Link>
                         <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/task'}>Travaux</Link>
-                        <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/services'}>Services</Link>
+                        <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/chantiers'}>Chantiers</Link>
+                        <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/locaux'}>Locaux</Link>
                         <Link onClick={() => setIsOpen(false)} className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/contact'}>Contact</Link>
                         <div>
                             <Link onClick={() => setIsOpen(false)} aria-label="menu admin" className="w-[150px] text-center p-3 border-[3px] border-transparent hover:border-black" href={'/admin'}><RiAdminFill /></Link>

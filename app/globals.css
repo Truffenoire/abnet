@@ -29,3 +29,6 @@ body {
 .title {
   text-shadow: var(--text-shadow);
 }
+.shape {
+  shape-outside: content-box;
+}

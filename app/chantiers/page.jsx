@@ -11,15 +11,15 @@ export default function page() {
                 </div>
                 <div className="mt-5 flex flex-col gap-10 text-xl">
                     <div
-                        className="w-[60%] h-[100px] m-2 font-bold bg-red-300 text-white bg-[url('/life-style.jpg')] bg-cover bg-bottom">
+                        className="w-[60%] h-[100px] m-2 font-bold bg-red-300 text-white bg-[url('/life_haut.png')] bg-cover bg-bottom">
                         Étape 1 : après levée de reserve
                     </div>
                     <div
-                        className="w-[80%] h-[100px] m-2 font-bold bg-red-300 text-white text-center bg-[url('/life-style.jpg')] bg-cover bg-top">
+                        className="w-[80%] h-[100px] m-2 font-bold bg-red-300 text-white text-center bg-[url('/life_middle.png')] bg-cover bg-top">
                         Étape 2 : avant O.P.R.
                     </div>
                     <div
-                        className="w-[95%] h-[100px] m-2 font-bold bg-red-300 text-white text-end bg-[url('/life-style.jpg')] bg-cover bg-center">
+                        className="w-[95%] h-[100px] m-2 pr-2 font-bold bg-red-300 text-white text-end bg-[url('/life_bottom.png')] bg-cover bg-bottom title">
                         Étape 3 : après réception
                     </div>
                 </div>

@@ -146,7 +146,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            <div className="my-6">
+            <div className="py-6 border-b-2">
                 <div className="h_groupe flex flex-col md:flex-row">
                     <Image 
                     src={'/nettoyage_regulier.png'}
